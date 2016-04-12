@@ -1,0 +1,72 @@
+body{
+  background-image: url("http://s16.postimg.org/51quxtp0l/texture_tile.jpg");
+
+}
+
+.header{
+  float: left;
+  width: 225px;
+margin-right: 115px;
+}
+
+.content{
+  overflow:hidden;
+max-width: 760px;
+}
+
+.logo {
+  width: 225px;
+  height: 225px;
+  background: url(http://s30.postimg.org/lr2l3spw1/levine_logo.png) center center no-repeat;
+  overflow: hidden;
+}
+.header h3 {
+  font-family: 'Helvetica';
+  font-size: 24px;
+}
+
+.site-nav li{
+  font-family: 'Helvetica';
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+margin-left: 20px;
+
+}
+
+.work {
+  position: relative;
+  
+}
+
+.work:hover .work-detail {
+  opacity: 1;
+
+}
+
+.work-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.work-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .5);
+  opacity: 0;
+  transition: opacity .3s ease-out;
+
+}
+.work-detail-canister {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+}
